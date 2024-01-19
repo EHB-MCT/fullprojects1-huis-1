@@ -1,7 +1,33 @@
 /* BUTTONS */
 
 .btn-primary {
+	font-family: "urbana", sans-serif;
+	font-weight: 900;
+	font-style: normal;
+	background-color: #ff4040;
+	color: white;
+	padding: 15px 30px;
+	border-radius: 15px;
+	transition: background-color 0.3s ease; /* Add transition for smooth color change */
+}
+
+.btn-primary:hover {
+	background-color: white;
+	color: #ff4040;
 }
 
 .btn-secondary {
+	font-family: "urbana", sans-serif;
+	font-weight: 900;
+	font-style: normal;
+	background-color: #ff4040;
+	color: white;
+	padding: 15px 30px;
+	border-radius: 15px;
+	transition: background-color 0.3s ease; /* Add transition for smooth color change */
+}
+
+.btn-secondary:hover {
+	background-color: white;
+	color: #ff4040;
 }

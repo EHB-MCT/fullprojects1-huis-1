@@ -1,15 +1,27 @@
 /* TYPOGRAPHY */
 
 h1 {
+	font-family: "urbana", sans-serif;
+	font-weight: 700;
+	font-style: italic;
 }
 
 h2 {
+	font-family: "urbana", sans-serif;
+	font-weight: 700;
+	font-style: normal;
 }
 
 h3 {
+	font-family: "urbana", sans-serif;
+	font-weight: 400;
+	font-style: italic;
 }
 
 h4 {
+	font-family: "urbana", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 h5 {
@@ -19,7 +31,13 @@ h6 {
 }
 
 p {
+	font-family: "urbana", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 a {
+	font-family: "urbana", sans-serif;
+	font-weight: 400;
+	font-style: italic;
 }
