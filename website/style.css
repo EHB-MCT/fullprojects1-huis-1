@@ -6,6 +6,14 @@ body {
 	font-family: "Urbana";
 }
 
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	align-items: center;
+	text-align: center;
+	color: #62432f;
+}
+
 /* Navigation */
 
 /* Style the navigation menu */
@@ -48,6 +56,35 @@ body {
 	right: 5px;
 	top: 5px;
 	background-color: #e84446;
-	padding: 10px 12px !important;
+	padding: 10px !important;
 	border-radius: 10px;
+	color: #fff !important;
+	text-align: center;
+}
+
+/* footer */
+
+footer {
+	background: #62432f;
+	width: 100%;
+	bottom: 0px;
+	text-align: center;
+}
+
+ul {
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+	line-height: 25px;
+}
+
+ul a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.sponsors {
+	display: flex;
+	overflow: hidden;
+	flex-direction: column;
 }
