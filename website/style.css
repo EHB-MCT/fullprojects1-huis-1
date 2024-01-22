@@ -1,3 +1,53 @@
+@import url("https://use.typekit.net/qes6mbe.css");
+
 body {
 	margin: 0;
+	background-color: #e5d4ba;
+	font-family: "Urbana";
+}
+
+/* Navigation */
+
+/* Style the navigation menu */
+.topnav {
+	position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+	display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+	color: #62432f;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+	color: white;
+	background-color: #e5d4ba;
+	text-align: center;
+}
+
+.donatebutton {
+	width: 20px;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	background-color: #e84446;
+	padding: 10px 12px !important;
+	border-radius: 10px;
 }
