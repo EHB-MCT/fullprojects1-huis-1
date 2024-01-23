@@ -14,6 +14,8 @@ body {
 	color: #62432f;
 }
 
+/* Homepage */
+
 .logo {
 	padding-top: 25px;
 }
@@ -24,6 +26,29 @@ body {
 	text-align: center;
 	color: #62432f;
 	padding-bottom: 20px;
+}
+
+.who-are-we-text {
+	width: 85%;
+	margin: 0 auto;
+}
+
+/* Contact page */
+
+.contact {
+	background-color: #b29377;
+	text-align: center;
+	color: #62432f;
+	padding: 20px 0;
+}
+
+.contact div {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.maps-image img {
+	width: 100%;
 }
 
 /* Navigation */
