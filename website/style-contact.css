@@ -1,0 +1,61 @@
+@import url("https://use.typekit.net/qes6mbe.css");
+
+.large {
+	display: none;
+}
+
+.main-title-contact {
+	font-size: 50px;
+	margin-bottom: 0;
+	color: #46495a;
+	text-align: center;
+}
+
+.contact-info {
+	text-align: center;
+}
+
+.facebook-link {
+	text-decoration: underline;
+	color: #000;
+}
+
+.google-maps {
+	text-align: center;
+}
+
+.contact-info p {
+	margin: 30px;
+}
+
+@media (min-width: 768px) {
+	.main-title-contact {
+		padding-left: 60px;
+		text-align: left;
+	}
+
+	.contact-flex {
+		display: flex;
+		padding-top: 50px;
+		align-items: center;
+	}
+
+	.contact-info {
+		text-align: left;
+		width: 50%;
+	}
+
+	.large {
+		display: none !important;
+	}
+}
+
+@media (min-width: 450px) {
+	.small {
+		display: none;
+	}
+
+	.large {
+		display: block;
+	}
+}
