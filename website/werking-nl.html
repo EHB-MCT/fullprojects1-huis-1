@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Huis van Vrede</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="style-werking.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+	</head>
+	<body>
+		<!-- Top Navigation Menu -->
+		<div class="topnav">
+			<a href="contact-fr.html" class="active">NL</a>
+			<!-- Navigation links (hidden by default) -->
+			<div id="myLinks">
+				<a href="#">Home</a>
+				<a href="#">Info</a>
+				<a href="#">Organisatie</a>
+				<a href="#">Contact</a>
+			</div>
+			<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+
+		<img src="img/logo.svg" class="logo" alt="" />
+
+		<div class="navigation-background desktop"></div>
+
+		<div class="wrapper">
+			<div class="topnav-desktop">
+				<div class="navigation">
+					<a href="#">Home</a>
+					<div class="dropdown">
+						<a class="dropbtn">Info</a>
+						<div class="dropdown-content">
+							<a href="#">Over ons</a>
+							<a href="#">Werking</a>
+							<a href="#">Historiek</a>
+							<a href="#">Blog</a>
+							<a href="#">Vacatures</a>
+						</div>
+					</div>
+					<a href="#">Organisatie</a>
+					<a href="#">Contact</a>
+					<a href="#" class="support">Steun ons</a>
+				</div>
+
+				<div class="lang">
+					<a
+						href="werking-nl.html"
+						class="lang-nl"
+						style="border-bottom: 2px solid #fff"
+						>NL</a
+					>
+					<a href="werking-fr.html" class="lang-fr">FR</a>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="image">
+				<img
+					src="img/caritas.png"
+					class="caritas-image-footer desktop"
+					alt=""
+				/>
+				<img
+					src="img/image logo.png"
+					class="caritas-image-footer desktop"
+					alt=""
+				/>
+			</div>
+			<div class="navigation-footer">
+				<a href="#">Home</a>
+				<a href="#">Over ons</a>
+				<a href="#">Werking</a>
+				<a href="#">Historiek</a>
+				<a href="#">Blog</a>
+				<a href="#">Vacatures</a>
+				<a href="#">Contact</a>
+				<div class="sponsors-footer">
+					<img src="img/caritas.png" class="caritas-image-footer" alt="" />
+					<img src="img/image logo.png" class="caritas-image-footer" alt="" />
+				</div>
+			</div>
+
+			<div class="navgation-footer-desktop">
+				<div class="socials-home desktop">
+					<a href="#"><img src="img/social-facebook.svg" alt="" /></a>
+					<a href="#"><img src="img/social-youtube.svg" alt="" /></a>
+					<a href="#"><img src="img/social-instagram.svg" alt="" /></a>
+				</div>
+				<div class="test desktop">
+					<a href="#">Home</a>
+					<a href="#">Over ons</a>
+					<a href="#">Werking</a>
+					<a href="#">Historiek</a>
+					<a href="#">Blog</a>
+					<a href="#">Vacatures</a>
+					<a href="#">Contact</a>
+				</div>
+			</div>
+		</footer>
+		<!-- Javascript for nav -->
+		<script>
+			/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+			function myFunction() {
+				var x = document.getElementById("myLinks");
+				if (x.style.display === "block") {
+					x.style.display = "none";
+				} else {
+					x.style.display = "block";
+				}
+			}
+		</script>
+	</body>
+</html>
