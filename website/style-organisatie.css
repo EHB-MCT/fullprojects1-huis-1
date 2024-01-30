@@ -1,0 +1,43 @@
+.main-title-contact {
+	font-size: 50px;
+	margin-bottom: 0;
+	color: #46495a;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.organisatie-mobile {
+	text-align: center;
+}
+
+.organisatie-mobile img {
+	margin: 10px 0;
+	width: 300px;
+}
+
+@media (min-width: 768px) {
+	.main-title-contact {
+		padding-left: 60px;
+		text-align: left;
+	}
+
+	.text {
+		width: 50%;
+	}
+
+	.organisatie-desktop {
+		display: flex;
+	}
+
+	.organisatie-desktop img {
+		width: 200px;
+	}
+
+	.image-1 {
+		padding: 0 0 50px 200px;
+	}
+
+	.image-2 {
+		padding-left: 20px;
+	}
+}

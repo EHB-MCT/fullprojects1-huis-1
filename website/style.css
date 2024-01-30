@@ -261,9 +261,10 @@ footer {
 	.houses {
 		display: block;
 		position: absolute;
-		width: 92%;
+		width: 85%;
 		right: 0;
-		bottom: -10px;
+		bottom: -20px;
+		z-index: -11;
 	}
 
 	.topnav-desktop a {
