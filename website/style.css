@@ -117,7 +117,7 @@ body {
 
 /* Footer styling */
 
-footer {
+/* footer {
 	background-color: #c8cdd1;
 	padding-bottom: 40px;
 }
@@ -150,6 +150,28 @@ footer {
 	display: flex;
 	margin: 0px;
 	flex-direction: column;
+} */
+
+footer {
+	background-color: #c8cdd1;
+}
+
+.footer-links {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.footer-links ul {
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+	text-align: center;
+}
+
+.footer-links a {
+	text-decoration: none;
+	color: #46495a;
+	margin: 5px 0;
 }
 
 /* Navigation */
@@ -237,25 +259,32 @@ footer {
 	.mark4-intro-home,
 	.move-left,
 	.move-right,
-	.navigation-footer,
+	/* .navigation-footer, */
 	.text-intro-home h1,
 	.topnav,
 	.mobile {
 		display: none;
 	}
 
-	footer {
+	/* footer {
 		padding-top: 20px;
 		display: flex;
 		height: 100px;
 		align-items: center;
 		justify-content: center;
-	}
+	} */
 
-	.navgation-footer-desktop a {
+	/* .navgation-footer-desktop a {
 		text-decoration: none;
 		color: #46495a;
 		padding: 0 50px;
+	} */
+
+	.footer-links ul {
+		flex-direction: row;
+		text-align: center;
+		justify-content: space-evenly;
+		padding-top: 20px;
 	}
 
 	.houses {
@@ -405,7 +434,7 @@ footer {
 	}
 }
 
-@media (max-width: 1300px) {
+/* @media (max-width: 1300px) {
 	.navgation-footer-desktop a {
 		padding: 0 30px;
 	}
@@ -415,4 +444,4 @@ footer {
 	.navgation-footer-desktop a {
 		padding: 0 10px;
 	}
-}
+} */
