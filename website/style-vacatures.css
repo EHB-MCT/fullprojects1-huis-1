@@ -14,8 +14,14 @@ body {
 .topnav-desktop,
 .houses,
 .title-home,
+.footer-links-desktop,
 .desktop {
 	display: none;
+}
+
+.kleine-zetel {
+	width: 200px;
+	padding-left: 70px;
 }
 
 .wrapper {
@@ -25,12 +31,38 @@ body {
 
 /* Styling homepage */
 
+footer {
+	background-color: #c8cdd1;
+}
+
+.footer-links-mobile {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.footer-links-mobile ul {
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer-links-mobile ul a {
+	color: #46495a;
+	text-decoration: none;
+}
+
 .intro-home {
 	position: relative;
 }
 
 .intro-home h1 {
 	color: #46495a;
+}
+
+.intro-home a {
+	color: #000;
 }
 
 .text-intro-home {
@@ -121,63 +153,6 @@ body {
 
 /* Footer styling */
 
-/* footer {
-	background-color: #c8cdd1;
-	padding-bottom: 40px;
-}
-
-.navigation-footer {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	line-height: 25px;
-	padding-top: 10px;
-}
-
-.navigation-footer a {
-	text-decoration: none;
-	color: #46495a;
-}
-
-.comcom-image-footer {
-	height: 40px;
-}
-
-.caritas-image-footer {
-	border: #fff;
-	margin: 20px 0px 0px 20px;
-	width: 200px;
-	height: auto;
-}
-
-.sponsors-footer {
-	display: flex;
-	margin: 0px;
-	flex-direction: column;
-} */
-
-footer {
-	background-color: #c8cdd1;
-}
-
-.footer-links {
-	display: flex;
-	justify-content: space-evenly;
-}
-
-.footer-links ul {
-	display: flex;
-	flex-direction: column;
-	padding: 0;
-	text-align: center;
-}
-
-.footer-links a {
-	text-decoration: none;
-	color: #46495a;
-	margin: 5px 0;
-}
-
 /* Navigation */
 
 /* Style the navigation menu */
@@ -228,10 +203,36 @@ footer {
 	left: calc(50% - 20px);
 }
 
+.line-1 {
+	position: absolute;
+	width: 40px;
+	top: 50px;
+	left: 25%;
+}
+
 @media (min-width: 768px) {
 	.wrapper {
 		width: 75%;
 		height: 100vh;
+	}
+
+	.huis-1 {
+		position: absolute;
+		width: 250px;
+		bottom: 0;
+		right: 150px;
+	}
+
+	.kleine-zetel {
+		position: absolute;
+		bottom: -350px;
+	}
+
+	.tafel {
+		position: absolute;
+		width: 300px;
+		top: 200px;
+		right: 150px;
 	}
 
 	.support {
@@ -263,32 +264,22 @@ footer {
 	.mark4-intro-home,
 	.move-left,
 	.move-right,
-	/* .navigation-footer, */
 	.text-intro-home h1,
+	.navigation-footer,
 	.topnav,
 	.mobile {
 		display: none;
 	}
 
-	/* footer {
-		padding-top: 20px;
+	.footer-links-desktop {
 		display: flex;
-		height: 100px;
-		align-items: center;
-		justify-content: center;
-	} */
-
-	/* .navgation-footer-desktop a {
-		text-decoration: none;
-		color: #46495a;
-		padding: 0 50px;
-	} */
-
-	.footer-links ul {
-		flex-direction: row;
-		text-align: center;
 		justify-content: space-evenly;
-		padding-top: 20px;
+	}
+
+	.footer-links-desktop ul a {
+		color: #46495a;
+		text-decoration: none;
+		padding: 0 10px;
 	}
 
 	.houses {
@@ -444,25 +435,5 @@ footer {
 
 	.vacatures-img {
 		width: 30%;
-	}
-}
-
-/* @media (max-width: 1300px) {
-	.navgation-footer-desktop a {
-		padding: 0 30px;
-	}
-
-	.vacatures-img {
-		width: 100%;
-	}
-}
-
-@media (max-width: 1000px) {
-	.navgation-footer-desktop a {
-		padding: 0 10px;
-	}
-
-	.vacatures-img {
-		width: 100%;
 	}
 }

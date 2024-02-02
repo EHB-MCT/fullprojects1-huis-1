@@ -7,12 +7,33 @@
 }
 
 .organisatie-mobile {
-	text-align: center;
+	text-align: left;
 }
 
 .organisatie-mobile img {
 	margin: 10px 0;
 	width: 300px;
+}
+
+.keuken {
+	height: 150px;
+	padding-left: 50px;
+}
+
+.kast {
+	height: 250px;
+}
+
+.line-1 {
+	position: absolute;
+	width: 40px;
+	top: 60px;
+}
+
+.brick-1 {
+	position: absolute;
+	height: 40px;
+	left: -100px;
 }
 
 @media (min-width: 768px) {
@@ -39,5 +60,18 @@
 
 	.image-2 {
 		padding-left: 20px;
+	}
+
+	.keuken-desktop {
+		position: absolute;
+		top: 150px;
+		right: 100px;
+	}
+
+	.kast-desktop {
+		position: absolute;
+		bottom: 100px;
+		right: 250px;
+		height: 250px;
 	}
 }

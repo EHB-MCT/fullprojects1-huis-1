@@ -8,12 +8,44 @@
 }
 
 .werking-info {
-	text-align: center;
+	text-align: left;
 }
 
-.werking-info p {
-	margin: 30px;
+.computer {
+	width: 200px;
+	padding-left: 100px;
 }
+
+.boot {
+	width: 150px;
+}
+
+.spiral-1 {
+	position: absolute;
+	height: 40px;
+	padding-left: 30px;
+}
+
+.spiral-2 {
+	position: absolute;
+	height: 40px;
+	right: 50px;
+}
+
+.line-1 {
+	position: absolute;
+	width: 35px;
+	right: 15%;
+	top: 100px;
+}
+
+.line-1-fr {
+	position: absolute;
+	width: 35px;
+	right: 5%;
+	top: 60px;
+}
+
 @media (min-width: 768px) {
 	.main-title-contact {
 		padding-left: 60px;
@@ -29,5 +61,17 @@
 	.werking-info {
 		text-align: left;
 		width: 50%;
+	}
+
+	.computer {
+		position: absolute;
+		right: 100px;
+		top: 150px;
+	}
+
+	.boot {
+		position: absolute;
+		right: 400px;
+		bottom: 200px;
 	}
 }
