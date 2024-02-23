@@ -11,10 +11,15 @@ body {
 	max-width: 100%;
 }
 
+body p {
+	font-size: 18px;
+}
+
 .topnav-desktop,
 .houses,
 .title-home,
-.desktop {
+.desktop,
+.footer-links-desktop {
 	display: none;
 }
 
@@ -119,37 +124,24 @@ body {
 
 footer {
 	background-color: #c8cdd1;
-	padding-bottom: 40px;
 }
 
-.navigation-footer {
+.footer-links-mobile {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.footer-links-mobile ul {
+	padding: 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	line-height: 25px;
-	padding-top: 10px;
 }
 
-.navigation-footer a {
-	text-decoration: none;
+.footer-links-mobile ul a {
 	color: #46495a;
-}
-
-.comcom-image-footer {
-	height: 40px;
-}
-
-.caritas-image-footer {
-	border: #fff;
-	margin: 20px 0px 0px 20px;
-	width: 200px;
-	height: auto;
-}
-
-.sponsors-footer {
-	display: flex;
-	margin: 0px;
-	flex-direction: column;
+	text-decoration: none;
 }
 
 /* Navigation */
@@ -209,7 +201,7 @@ footer {
 	}
 
 	.support {
-		padding: 10px 15px;
+		padding: 10px 15px !important;
 		background-color: #ff4040;
 		border-radius: 10px;
 	}
@@ -219,7 +211,7 @@ footer {
 		width: 100%;
 		position: absolute;
 		background-color: #46495a;
-		z-index: -10;
+		z-index: 10;
 	}
 
 	.navigation a {
@@ -244,18 +236,15 @@ footer {
 		display: none;
 	}
 
-	footer {
-		padding-top: 20px;
+	.footer-links-desktop {
 		display: flex;
-		height: 100px;
-		align-items: center;
-		justify-content: center;
+		justify-content: space-evenly;
 	}
 
-	.navgation-footer-desktop a {
-		text-decoration: none;
+	.footer-links-desktop ul a {
 		color: #46495a;
-		padding: 0 50px;
+		text-decoration: none;
+		padding: 0 10px;
 	}
 
 	.houses {
@@ -263,8 +252,8 @@ footer {
 		position: absolute;
 		width: 85%;
 		right: 0;
-		bottom: -20px;
-		z-index: -11;
+		bottom: -18px;
+		z-index: 5;
 	}
 
 	.topnav-desktop a {
@@ -277,6 +266,7 @@ footer {
 		display: flex;
 		width: 50%;
 		justify-content: space-between;
+		z-index: 15;
 	}
 
 	.logo {
@@ -298,7 +288,7 @@ footer {
 	}
 
 	.button-intro-home {
-		width: 60px;
+		width: 66px;
 	}
 
 	.socials-home {
@@ -397,6 +387,7 @@ footer {
 
 	.lang {
 		display: flex;
+		z-index: 15;
 	}
 
 	.lang a {
@@ -405,7 +396,7 @@ footer {
 	}
 }
 
-@media (max-width: 1300px) {
+/* @media (max-width: 1300px) {
 	.navgation-footer-desktop a {
 		padding: 0 30px;
 	}
@@ -415,4 +406,4 @@ footer {
 	.navgation-footer-desktop a {
 		padding: 0 10px;
 	}
-}
+} */
